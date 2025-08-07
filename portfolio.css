@@ -11,7 +11,7 @@ nav{
     align-items: center;
     background-color: #e5e5e5;
     height: 70px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 main{
@@ -88,3 +88,72 @@ font-weight: bold;
 .icons img{
     width: 25px;
 }
+
+.right  button{
+    font-size: 0.8rem;
+    background: none;
+    border: 1px solid ;
+    padding: 0.4em 0.8em;
+    transition: all 0.25em;
+    border-radius: 15px;
+}
+
+.right button:hover{
+    border-color: rgb(147, 147, 213);
+    color: rgb(128, 116, 116);
+    box-shadow: 0em 0.5em 0.3em -0.1em rgb(147, 147, 213);
+    cursor: pointer;
+    /* transform: translateY(0.5em); */
+}
+
+.resume{
+    padding-left: 45px;
+}
+
+.resume button{
+    font-size: 0.3em;
+    border: 1px solid black;
+    padding: 0.6rem 0.9rem;
+    background: none;
+    border-radius: 15px;
+    transition: all 0.25em;
+    border-radius: 1.2em;
+}
+
+.resume button:hover{
+    border-color: rgb(147, 147, 213);
+    color: rgb(128, 116, 116);
+    box-shadow: 0em 0.5em 0.3em -0.1em rgb(147, 147, 213);
+    cursor: pointer;
+}
+
+nav li a:hover{
+    color: rgb(147, 147, 213);
+    border-bottom: 0.1em solid rgb(147, 147, 213);
+    box-shadow: 0em 0.5em 0.5em -0.3em rgb(147, 147, 213);
+}
+
+.icons li :hover{
+    transform: scale(1.2);
+}
+
+.secondsection{
+    margin-top:13rem;
+}
+
+#about{
+    text-align: center;
+} 
+
+.about-container{
+    margin: 2rem 4rem;
+border: 1px solid black;
+display: flex;
+padding: 2rem;
+/* justify-content: space-between; */
+}
+
+.about-text{
+    
+}
+
