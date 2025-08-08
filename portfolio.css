@@ -48,7 +48,7 @@ nav  a{
     width: 50%;
     font-size: 2.5em;
     padding-left: 200px;
-    padding-top: 30px;
+    padding-top: 150px;
 }
 
 .rightblock{
@@ -128,7 +128,7 @@ font-weight: bold;
 }
 
 nav li a:hover{
-    color: rgb(147, 147, 213);
+    /* color: rgb(147, 147, 213); */
     border-bottom: 0.1em solid rgb(147, 147, 213);
     box-shadow: 0em 0.5em 0.5em -0.3em rgb(147, 147, 213);
 }
@@ -138,7 +138,7 @@ nav li a:hover{
 }
 
 .secondsection{
-    margin-top:13rem;
+    /* margin-top:4rem; */
 }
 
 #about{
@@ -149,11 +149,25 @@ nav li a:hover{
     margin: 2rem 4rem;
 border: 1px solid black;
 display: flex;
-padding: 2rem;
-/* justify-content: space-between; */
+/* padding: 2rem; */
+justify-content: space-between;
 }
 
 .about-text{
-    
+width: 70%; 
+line-height: 1.5em;
+padding: 2rem;
+}
+
+.about-img{
+    width: 20%;
+}
+
+hr{
+    width: 70%;             
+  margin: 8rem auto 3 rem;       
+  border: none;            
+  height: 2px;             
+  background-color: rgb(147, 147, 213);
 }
 
